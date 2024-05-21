@@ -1,0 +1,24 @@
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .chat-box {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .message-box {
+    min-height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .input-box input {
+    border-radius: 20px;
+  }
+  
+  .input-box button {
+    border-radius: 20px;
+  }
+  
