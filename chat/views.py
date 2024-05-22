@@ -85,5 +85,9 @@ def generate(prompt, temperature=0.9, max_new_tokens=512, top_p=0.95, repetition
     response = client.text_generation(formatted_prompt, **generate_kwargs)
     
     return response
+
+def loginPage(request):
+    return render(request, "chat/login.html")
+
     
     
